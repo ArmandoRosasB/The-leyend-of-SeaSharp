@@ -57,3 +57,9 @@ TagManager:
   - name: SeaSharp
     uniqueID: 3177620979
     locked: 0
+  - name: GameCanvas
+    uniqueID: 3917075763
+    locked: 0
+  - name: Diary
+    uniqueID: 2812783369
+    locked: 0
