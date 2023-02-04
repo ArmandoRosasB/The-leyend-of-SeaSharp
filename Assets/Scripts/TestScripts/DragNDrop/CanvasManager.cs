@@ -34,9 +34,11 @@ public class CanvasManager : MonoBehaviour
         {
             if(plantInstance[i].transform.position == slotInstance[plant.target[i]].transform.position)
             {
-                Debug.Log("FUNCIONAAA");
-                Debug.Log(i);
-                Debug.Log(plant.target[i]);
+                slotInstance[plant.target[i]].GetComponent<Image>().color = new Color32(0, 0, 255, 200);
+            }
+            else
+            {
+                slotInstance[plant.target[i]].GetComponent<Image>().color = new Color32(255, 0, 0, 200);
             }
         }
     }
