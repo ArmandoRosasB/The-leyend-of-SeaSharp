@@ -7,6 +7,7 @@ TagManager:
   - Level_1
   - Level_2
   - Level_3
+  - Target_bush
   layers:
   - Default
   - TransparentFX
@@ -49,4 +50,10 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1708329599
+    locked: 0
+  - name: Bushes
+    uniqueID: 2229764535
+    locked: 0
+  - name: SeaSharp
+    uniqueID: 3177620979
     locked: 0
